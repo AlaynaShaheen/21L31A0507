@@ -1,4 +1,3 @@
-// src/pages/AllProducts.js
 import React, { useState, useEffect } from 'react';
 import { getProducts } from '../../services/api';
 import ProductCard from '../ProductCard';
