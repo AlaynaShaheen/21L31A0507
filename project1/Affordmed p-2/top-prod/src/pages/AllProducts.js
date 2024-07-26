@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { getProducts } from '../../services/api';
-import ProductCard from '../ProductCard';
-import Filters from '../Filters';
+import { getProducts } from '../services/api';
+import ProductCard from '../components/ProductCard';
+import Filters from '../components/Filters';
 import { Grid } from '@mui/material';
 
 const AllProducts = () => {
